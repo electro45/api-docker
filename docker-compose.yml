@@ -34,7 +34,7 @@ services:
     volumes:
       - "./settings.json:/usr/src/api/config/settings.json"
       - "./healthcheck.js:/usr/src/api/healthcheck.js"
-    port:
+    ports:
       - "8888:8080"
 
 
